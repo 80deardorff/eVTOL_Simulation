@@ -1,0 +1,1 @@
+This text file is just to make sure github doesn't delete the empty folder when uploading. Users will need this obj directory when building the project.
