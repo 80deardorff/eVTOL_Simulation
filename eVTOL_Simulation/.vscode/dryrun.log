@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/adriandeardorff/Desktop/eVTOL_Simulation/eVTOL_Simulation'
+g++ -std=c++17 -Wall -g -I inc -o obj/Alpha.o -c src/Alpha.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Battery.o -c src/Battery.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Beta.o -c src/Beta.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Charger.o -c src/Charger.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Charlie.o -c src/Charlie.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Delta.o -c src/Delta.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Echo.o -c src/Echo.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Simulation.o -c src/Simulation.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/Vehicle.o -c src/Vehicle.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/VehicleFactory.o -c src/VehicleFactory.cpp
+g++ -std=c++17 -Wall -g -I inc -o obj/main.o -c src/main.cpp
+g++ -std=c++17 -Wall -g -I inc -o Joby obj/Alpha.o obj/Battery.o obj/Beta.o obj/Charger.o obj/Charlie.o obj/Delta.o obj/Echo.o obj/Simulation.o obj/Vehicle.o obj/VehicleFactory.o obj/main.o 
+make: Leaving directory `/Users/adriandeardorff/Desktop/eVTOL_Simulation/eVTOL_Simulation'
+ 

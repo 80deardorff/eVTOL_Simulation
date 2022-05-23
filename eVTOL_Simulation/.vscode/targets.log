@@ -1,0 +1,399 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun May 22 19:00:22 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 19)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# makefile (from `Makefile', line 18)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.4.3
+# environment
+BASH_SILENCE_DEPRECATION_WARNING = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 26)
+EXE = .exe
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/adriandeardorff/Desktop/eVTOL_Simulation/eVTOL_Simulation
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 22)
+RM = rm
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 7)
+CXXFLAGS = -std=c++17 -Wall -g
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `Makefile', line 25)
+DEL = del
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/8p/_d0y47ys1qv8znjy4vj85dj80000gn/T/vscode-ipc-bd93068b-1bb4-41aa-81ea-a9473388f40c.sock
+# environment
+VSCODE_CWD = /
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from `Makefile', line 20)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# environment
+LSCOLORS = GxFxCxDxBxegedabagaced
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 9)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.FxVBzahLwS/Listeners
+# makefile (from `Makefile', line 14)
+SRCDIR = src
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/adriandeardorff/Desktop/eVTOL_Simulation/eVTOL_Simulation
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/adriandeardorff
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/adriandeardorff/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = adriandeardorff
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 23)
+DELOBJ = $(OBJ)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+PLATFORMIO_PATH = /Users/adriandeardorff/.platformio/python3/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+# environment
+SHLVL = 3
+# environment
+XPC_FLAGS = 0x0
+# makefile (from `Makefile', line 6)
+CC = g++
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = adriandeardorff
+# makefile
+.DEFAULT_GOAL := all
+# environment
+TERM_SESSION_ID = 4CDB21A3-B477-4274-92D7-EE87217A9FB5
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8p/_d0y47ys1qv8znjy4vj85dj80000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/adriandeardorff/Library/Application Support/Code/1.67.2-main.sock
+# makefile (from `Makefile', line 8)
+INCFLAGS = -I inc
+# makefile (from `Makefile', line 13)
+EXT = .cpp
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 440
+# environment
+XPC_SERVICE_NAME = 0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 12)
+APPNAME = Joby
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `Makefile', line 15)
+OBJDIR = obj
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 27)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CLICOLOR = 1
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 70482
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=5/132=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 12910045627): 8 files, no impossibilities.
+# src (device 16777220, inode 12910045644): 13 files, no impossibilities.
+
+# 21 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: src/%.cpp
+#  commands to execute (from `Makefile', line 41):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+	
+
+obj/%.o: src/%.cpp
+#  commands to execute (from `Makefile', line 48):
+	$(CC) $(CXXFLAGS) $(INCFLAGS) -o $@ -c $<
+	
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+obj/Charger.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Joby
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+.PHONY: clean cleandep
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/Battery.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 21:30:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/Echo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/Delta.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Alpha.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 21:01:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/Charlie.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/Simulation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Joby: obj/Alpha.o obj/Battery.o obj/Beta.o obj/Charger.o obj/Charlie.o obj/Delta.o obj/Echo.o obj/Simulation.o obj/Vehicle.o obj/VehicleFactory.o obj/main.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+ 
+#  commands to execute (from `Makefile', line 37):
+	$(CC) $(CXXFLAGS) $(INCFLAGS) -o $@ $^ $(LDFLAGS)
+	
+
+# Not a target:
+obj/Beta.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/Vehicle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 59):
+	$(RM) $(DEP)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 54):
+	$(RM) $(DELOBJ) $(APPNAME)$(EXE) $(APPNAME)
+	
+
+# Not a target:
+obj/VehicleFactory.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Alpha.o: src/Alpha.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Alpha'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/Alpha.o
+# automatic
+# % := 
+# automatic
+# * := Alpha
+# automatic
+# + := src/Alpha.cpp
+# automatic
+# | := 
+# automatic
+# < := src/Alpha.cpp
+# automatic
+# ^ := src/Alpha.cpp
+# automatic
+# ? := src/Alpha.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  commands to execute (from `Makefile', line 48):
+	$(CC) $(CXXFLAGS) $(INCFLAGS) -o $@ -c $<
+	
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=1/51=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 22 19:00:22 2022
+
+ 
